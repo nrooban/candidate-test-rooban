@@ -32,7 +32,7 @@ export const cartSlice = createSlice({
       );
 
       if (item) {
-        state.items.map((x) => {
+        state.items.forEach((x) => {
           if (x.productid === action.payload.productid) {
             x.quantity++;
             x.totalPrice = x.quantity * x.price;

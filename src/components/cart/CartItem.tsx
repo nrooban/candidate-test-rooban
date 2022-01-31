@@ -13,7 +13,7 @@ export function CartItem({ cartItem, index }: CartItemTypes) {
 
   return (
     <div className="p-6 mt-5 w-full max-w-xlg mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-      <img className="h-20 w-20" src={`/assets/${cartItem.imageUrl}`} />
+      <img className="h-20 w-20" src={`/assets/${cartItem.imageUrl}`} alt="" />
       <div className="md:flex justify-between w-full">
         <div className="flex flex-col justify-center">
           <p className="text-xl font-medium text-indigo-900">{cartItem.name}</p>

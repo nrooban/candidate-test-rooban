@@ -1,6 +1,6 @@
 import { Cart } from "./components/cart/Cart";
 import { Products } from "./components/products/Products";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Nav } from "./components/global/nav";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

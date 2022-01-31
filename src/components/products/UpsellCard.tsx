@@ -8,7 +8,7 @@ export function UpsellCard({ item }: { item: IProduct }) {
   return (
     <>
       <div className="max-w-sm rounded overflow-hidden shadow-lg">
-        <img className="w-full" src={`/assets/${item.imageUrl}`} />
+        <img className="w-full" src={`/assets/${item.imageUrl}`} alt="" />
         <div className="px-6 py-4 flex flex-col ltr-grid">
           <div className="font-bold text-lg mb-2">{item.name}</div>
           <p className="text-gray-700 text-base">Price: {item.price}</p>
